@@ -1,0 +1,55 @@
+{
+order_parameter = bond
+name = invader_bonds
+pair1 = 77, 21 
+pair2 = 76, 22 
+pair3 = 75, 23 
+pair4 = 24, 74 
+pair5 = 25, 73 
+pair6 = 26, 72 
+pair7 = 27, 71 
+pair8 = 28, 70 
+pair9 = 29, 69 
+pair10 = 30, 68 
+pair11 = 31, 67 
+pair12 = 32, 66 
+pair13 = 33, 65 
+pair14 = 34, 64 
+pair15 = 35, 63 
+pair16 = 36, 62 
+pair17 = 37, 61 
+pair18 = 38, 60 
+pair19 = 39, 59 
+pair20 = 40, 58 
+pair21 = 41, 57 
+pair22 = 42, 56 
+pair23 = 43, 55 
+pair24 = 44, 54 
+pair25 = 45, 53 
+pair26 = 46, 52 
+pair27 = 47, 51 
+}
+{
+ order_parameter = bond
+ name = incumbent_bonds
+pair1 = 48, 20 
+pair2 = 49, 19 
+pair3 = 50, 18 
+pair4 = 51, 17 
+pair5 = 52, 16 
+pair6 = 53, 15 
+pair7 = 54, 14 
+pair8 = 55, 13 
+pair9 = 56, 12 
+pair10 = 57, 11 
+pair11 = 58, 10 
+pair12 = 9, 59 
+pair13 = 60, 8 
+pair14 = 61, 7 
+pair15 = 4, 64 
+pair16 = 62, 6 
+pair17 = 63, 5 
+pair18 = 65, 3 
+pair19 = 66, 2 
+pair20 = 67, 1 
+}

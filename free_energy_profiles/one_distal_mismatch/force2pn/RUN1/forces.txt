@@ -1,0 +1,15 @@
+{
+type = string
+particle = 0
+F0 = 0.08
+rate = 0
+dir = 0., 0., 1.
+} 
+{
+type = string
+particle = 77
+F0 = 0.08
+rate = 0
+dir = 0., 0., -1.
+} 
+
