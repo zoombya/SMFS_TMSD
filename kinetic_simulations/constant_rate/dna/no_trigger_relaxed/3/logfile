@@ -1,0 +1,125 @@
+INFO: Setting the random number generator with seed = 995958900
+INFO: The generator will try to take into account bonded interactions by choosing distances between bonded neighbours no larger than 2.000000
+INFO: Using '/home/micha/oxDNA/oxDNA2_sequence_dependent_parameters.txt' as the input for sequence-dependent values
+INFO: Converting temperature from Celsius (20.000000 C°) to simulation units (0.097717)
+INFO: Running Debye-Huckel at salt concentration =  1
+INFO: Using different widths for major and minor grooves
+DEBUG: Debye-Huckel parameters: Q=0.054300, lambda_0=0.361646, lambda=0.357493, r_high=1.072479, cutoff=2.571515
+DEBUG: Debye-Huckel parameters: debye_huckel_RC=1.608718e+00, debye_huckel_B=8.766182e-03
+INFO: The Debye length at this temperature and salt concentration is 0.357493
+INFO: Parsing JSON force file ./data/out_slow/no_trigger_relaxed/3/forces.json
+INFO: Adding a MovingTrap (stiff=0.01, rate=0, dir=1,0,0, pos0=112.823,18.7451,-134.791 on particle 540
+INFO: Adding a MovingTrap (stiff=0.01, rate=5e-07, dir=-1,0,0, pos0=-29.4141,-68.2554,166.522 on particle 1047
+INFO:    Force file parsed
+INFO: (Cells.cpp) N_cells_side: 17, 17, 17; rcut=3.57152, IS_MC: 0
+INFO: N: 2289, N molecules: 5
+INFO: RELEASE: v3.4.2
+INFO: GIT COMMIT: 2de77cc
+INFO: COMPILED ON: 20/12/22
+INFO: Starting analysis
+INFO: Analysed 100 configurations
+INFO: Analysed 200 configurations
+INFO: Analysed 300 configurations
+INFO: Analysed 400 configurations
+INFO: Analysed 500 configurations
+INFO: Analysed 600 configurations
+INFO: Analysed 700 configurations
+INFO: Analysed 800 configurations
+INFO: Analysed 900 configurations
+INFO: Analysed 1000 configurations
+INFO: Analysed 1100 configurations
+INFO: Analysed 1200 configurations
+INFO: Analysed 1300 configurations
+INFO: Analysed 1400 configurations
+INFO: Analysed 1500 configurations
+INFO: Analysed 1600 configurations
+INFO: Analysed 1700 configurations
+INFO: Analysed 1800 configurations
+INFO: Analysed 1900 configurations
+INFO: Analysed 2000 configurations
+INFO: Analysed 2100 configurations
+INFO: Analysed 2200 configurations
+INFO: Analysed 2300 configurations
+INFO: Analysed 2400 configurations
+INFO: Analysed 2500 configurations
+INFO: Analysed 2600 configurations
+INFO: Analysed 2700 configurations
+INFO: Analysed 2800 configurations
+INFO: Analysed 2900 configurations
+INFO: Analysed 3000 configurations
+INFO: Analysed 3100 configurations
+INFO: Analysed 3200 configurations
+INFO: Analysed 3300 configurations
+INFO: Analysed 3400 configurations
+INFO: Analysed 3500 configurations
+INFO: Analysed 3600 configurations
+INFO: Analysed 3700 configurations
+INFO: Analysed 3800 configurations
+INFO: Analysed 3900 configurations
+INFO: Analysed 4000 configurations
+INFO: Analysed 4100 configurations
+INFO: Analysed 4200 configurations
+INFO: Analysed 4300 configurations
+INFO: Analysed 4400 configurations
+INFO: Analysed 4500 configurations
+INFO: Analysed 4600 configurations
+INFO: Analysed 4700 configurations
+INFO: Analysed 4800 configurations
+INFO: Analysed 4900 configurations
+INFO: Analysed 5000 configurations
+INFO: Analysed 5100 configurations
+INFO: Analysed 5200 configurations
+INFO: Analysed 5300 configurations
+INFO: Analysed 5400 configurations
+INFO: Analysed 5500 configurations
+INFO: Analysed 5600 configurations
+INFO: Analysed 5700 configurations
+INFO: Analysed 5800 configurations
+INFO: Analysed 5900 configurations
+INFO: Analysed 6000 configurations
+INFO: Analysed 6100 configurations
+INFO: Analysed 6200 configurations
+INFO: Analysed 6300 configurations
+INFO: Analysed 6400 configurations
+INFO: Analysed 6500 configurations
+INFO: Analysed 6600 configurations
+INFO: Analysed 6700 configurations
+INFO: Analysed 6800 configurations
+INFO: Analysed 6900 configurations
+INFO: Analysed 7000 configurations
+INFO: Analysed 7100 configurations
+INFO: Analysed 7200 configurations
+INFO: Analysed 7300 configurations
+INFO: Analysed 7400 configurations
+INFO: Analysed 7500 configurations
+INFO: Analysed 7600 configurations
+INFO: Analysed 7700 configurations
+INFO: Analysed 7800 configurations
+INFO: Analysed 7900 configurations
+INFO: Analysed 8000 configurations
+INFO: Analysed 8100 configurations
+INFO: Analysed 8200 configurations
+INFO: Analysed 8300 configurations
+INFO: Analysed 8400 configurations
+INFO: Analysed 8500 configurations
+INFO: Analysed 8600 configurations
+INFO: Analysed 8700 configurations
+INFO: Analysed 8800 configurations
+INFO: Analysed 8900 configurations
+INFO: Analysed 9000 configurations
+INFO: Analysed 9100 configurations
+INFO: Analysed 9200 configurations
+INFO: Analysed 9300 configurations
+INFO: Analysed 9400 configurations
+INFO: Analysed 9500 configurations
+INFO: Analysed 9600 configurations
+INFO: Analysed 9700 configurations
+INFO: Analysed 9800 configurations
+INFO: Analysed 9900 configurations
+INFO: Analysed 10000 configurations
+INFO: END OF THE ANALYSIS, everything went OK!
+INFO: Aggregated I/O statistics (set debug=1 for file-wise information)
+	  4.573 GB written to files
+	  0.000  B written to stdout/stderr
+	For a total of     2.13 MB/s
+

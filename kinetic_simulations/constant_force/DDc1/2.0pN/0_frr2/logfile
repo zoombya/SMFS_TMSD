@@ -1,0 +1,61 @@
+INFO: seeding the RNG with 943039552
+INFO: Initializing backend 
+INFO: Simulation type: MD
+INFO: CUDA backend precision: mixed
+INFO: The generator will try to take into account bonded interactions by choosing distances between bonded neighbours no larger than 2.000000
+INFO: Using '/home/micha/oxDNA/oxDNA2_sequence_dependent_parameters.txt' as the input for sequence-dependent values
+INFO: Converting temperature from Celsius (20.000000 C°) to simulation units (0.097717)
+INFO: Running Debye-Huckel at salt concentration =  1
+INFO: Using different widths for major and minor grooves
+INFO: Temperature change detected (new temperature: 20.00 C, 293.15 K), re-initialising the DNA interaction
+DEBUG: Debye-Huckel parameters: Q=0.054300, lambda_0=0.361646, lambda=0.357493, r_high=1.072479, cutoff=2.571515
+DEBUG: Debye-Huckel parameters: debye_huckel_RC=1.608718e+00, debye_huckel_B=8.766182e-03
+INFO: The Debye length at this temperature and salt concentration is 0.357493
+INFO: Setting the maximum IO limit to 100 MB/s
+INFO: Using CUDA device 2
+INFO: The generator will try to take into account bonded interactions by choosing distances between bonded neighbours no larger than 2.000000
+INFO: Using '/home/micha/oxDNA/oxDNA2_sequence_dependent_parameters.txt' as the input for sequence-dependent values
+INFO: Using edge-based approach
+INFO: pid: 208539
+DEBUG: Debye-Huckel parameters: Q=0.054300, lambda_0=0.361646, lambda=0.357493, r_high=1.072479, cutoff=2.571515
+DEBUG: Debye-Huckel parameters: debye_huckel_RC=1.608718e+00, debye_huckel_B=8.766182e-03
+INFO: The Debye length at this temperature and salt concentration is 0.357493
+INFO: Parsing JSON force file ./out_constant/t6.6relaxed/2.0pN/0_frr2/forces.json
+INFO: Adding a ConstantRateForce (F=0.0411269, rate=0, dir=1,0,0) on particle 594
+INFO: Adding a ConstantRateForce (F=0.0411269, rate=0, dir=-1,0,0) on particle 1101
+INFO:    Force file parsed
+INFO: (Cells.cpp) N_cells_side: 17, 17, 17; rcut=3.57152, IS_MC: 0
+INFO: N: 2339, N molecules: 6
+INFO: Using randomly distributed velocities
+INFO: Initial kinetic energy: 694.304383
+INFO: threads_per_block was not specified or set to 0. The default value (64) will be used
+INFO: CUDA Cells mem: 41.06 MBs, lists mem: 0.01 MBs
+INFO: CUDA max_neigh: 2338, max_N_per_cell: 2190, N_cells: 4913 (per side: 17 17 17)
+INFO: Allocated CUDA memory: 148.02 MBs
+
+INFO: Total Running Time: 1.21667e+06 s, per step: 0.243334 ms
+INFO: Timings, in seconds, by Timer (total, own, spent in children)
+> SimBackend                    1216667.983 (100.0%)    15785.513 (  1.3%)  1200882.469 ( 98.7%)
+***> Hilbert sorting               6816.874 (  0.6%)     6816.874 (  0.6%)        0.000 (  0.0%)
+***> Lists                        37899.880 (  3.1%)    37899.880 (  3.1%)        0.000 (  0.0%)
+***> Thermostat                   16017.086 (  1.3%)    16017.086 (  1.3%)        0.000 (  0.0%)
+***> Forces                      916918.752 ( 75.4%)   916918.752 ( 75.4%)        0.000 (  0.0%)
+***> First Step                  223229.877 ( 18.3%)   223229.877 ( 18.3%)        0.000 (  0.0%)
+
+
+Please cite these publications for any work that uses the oxDNA simulation package
+		- for the code:
+			* P. Šulc et al., J. Chem. Phys. 137, 135101 (2012)
+			* L. Rovigatti et al., J. Comput. Chem. 36, 1 (2015)
+		- for the oxDNA model:
+			* T. E. Ouldridge et al., J. Chem. Phys, 134, 085101 (2011)
+		- for the oxDNA2 model:
+			* B. E. K. Snodin et al., J. Chem. Phys. 142, 234901 (2015)
+		- for the oxRNA model:
+			* P. Šulc et al., J. Chem. Phys. 140, 235102 (2014)
+INFO: Lists updated 29301894 times (every ~170.637434 steps)
+INFO: Aggregated I/O statistics (set debug=1 for file-wise information)
+	 59.902 GB written to files
+	  0.000  B written to stdout/stderr
+	For a total of   0.0504 MB/s
+
