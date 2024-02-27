@@ -2,7 +2,7 @@
 Simulations of Single-Molecule Force Spectroscopy of Toehold-Mediated Strand Displacement
 
 
-- kinetic simulations (provided are the oxDNA simulation input and analysis files)
+- kinetic simulations (provided are the oxDNA simulation input files)
     - constant_force 
         - [DD (DNA hairpin invaded with DNA invader fully complementary sequence.)](./kinetic_simulations/constant_force/DD/)
         - [DDc1 (DNA hairpin invaded with DNA invader 1 central mismatch)](./kinetic_simulations/constant_force/DDc1/)
